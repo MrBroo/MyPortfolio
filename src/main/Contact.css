@@ -1,0 +1,20 @@
+.contact__body {
+  background-color: #191919;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact__left > h1 {
+  color: white;
+  font-weight: 800;
+}
+
+.contact__left > p {
+  color: white;
+}

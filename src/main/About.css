@@ -1,0 +1,38 @@
+.about__body {
+  background-color: #191919;
+}
+
+.about {
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  width: 70%;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.about__img {
+  height: 550px;
+  width: 400px;
+  background-color: white;
+  margin-right: 80px;
+}
+
+.about__right {
+  margin-top: 35px;
+}
+
+.about__right > h1{
+    font-weight: 800;
+    color: white;
+    font-size: 55px;
+    margin-bottom: 11px;
+}
+
+.about__right > p{
+    color: white;
+}
+
+.nav_link{
+    color: white !important;
+}

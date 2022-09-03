@@ -1,0 +1,38 @@
+.header__body {
+  background-color: black;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__content {
+  width: 70%;
+}
+.header__toptext {
+  font-weight: 200;
+  color: white;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.header__text {
+  color: white;
+  font-weight: 900;
+  font-size: 55px;
+  margin: 0;
+}
+
+.header__textmoution {
+  color: #f9004d;
+  font-weight: 900;
+  font-size: 55px;
+  margin: 0;
+}
+
+.header__bottomtext {
+  color: white;
+  font-weight: 900;
+  font-size: 45px;
+  margin: 0;
+}

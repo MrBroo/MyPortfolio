@@ -1,0 +1,46 @@
+.service__body {
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  width: 75%;
+  margin-bottom: 75px;
+}
+
+.service__text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 85px;
+  margin-bottom: 25px;
+}
+
+.service__text > div > h1 {
+  font-weight: 800;
+  color: white;
+}
+.service__text > div > p {
+  color: gray;
+}
+
+.service__content {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.service__card {
+  width: 430px;
+  height: 283px;
+  padding: 15px;
+  background-color: #191919;
+  color: white;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.service__card > p {
+  color: gray;
+}
