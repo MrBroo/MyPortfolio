@@ -13,20 +13,22 @@ function Contact() {
             <strong>Phone: </strong> (99833) 882-58-52
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing <br/> elit. Morbi
-            vehicula eu nunc et sollicitudin. Cras pulvinar, <br/> nisi at imperdiet
-            pharetra.
+            Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit.
+            Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, <br /> nisi
+            at imperdiet pharetra.
           </p>
         </div>
-        <div className="contact_right">
-          <div>
-            <input placeholder="Name" className="name__input" />
+        <div className="contact__right">
+          <div className="contact__send">
+            <div>
+              <input placeholder="Name" className="name__input" />
+            </div>
+            <div>
+              <input placeholder="Email" className="email__input" />
+            </div>
           </div>
           <div>
-            <input placeholder="Email" className="email__input" />
-          </div>
-          <div>
-            <input />
+            <textarea placeholder="Message" />
           </div>
         </div>
       </div>

@@ -1,8 +1,9 @@
 import "../main/Service.css";
-
+import { FiMonitor } from "react-icons/fi";
+import { BsFillMouseFill } from "react-icons/bs";
 function Service() {
   return (
-    <div className="service__body">
+    <div className="service__body" id="service">
       <div className="service">
         <div className="service__text">
           <div>
@@ -16,24 +17,24 @@ function Service() {
         </div>
         <div className="service__content">
           <div className="service__card">
-            <div> Icon </div>
-            <h3>Business Strgatagy</h3>
+          <div className="card__icon"> <FiMonitor /> </div>
+            <h2>Business Strgatagy</h2>
             <p>
               I throw myself down among the tall grass by the stream as I lie
               close to the earth.
             </p>
           </div>
           <div className="service__card">
-            <div> Icon </div>
-            <h3>Website Development</h3>
+          <div className="card__icon"> <FiMonitor /> </div>
+            <h2>Website Development</h2>
             <p>
               I throw myself down among the tall grass by the stream as I lie
               close to the earth.
             </p>
           </div>
           <div className="service__card">
-            <div> Icon </div>
-            <h3>Marketing & Reporting</h3>
+             <div className="card__icon"> <FiMonitor /> </div>
+            <h2>Marketing & Reporting</h2>
             <p>
               I throw myself down among the tall grass by the stream as I lie
               close to the earth.
@@ -42,30 +43,30 @@ function Service() {
         </div>
         <div className="service__content">
           <div className="service__card">
-            <div> Icon </div>
-            <h3>
+          <div className="card__icon"> <FiMonitor /> </div>
+            <h2>
               Mobile App <br />
               Development
-            </h3>
+            </h2>
             <p>
               I throw myself down among the tall grass by the stream as I lie
               close to the earth.
             </p>
           </div>
           <div className="service__card">
-            <div> Icon </div>
-            <h3>Marketing & Reporting</h3>
+          <div className="card__icon"> <FiMonitor /> </div>
+            <h2>Marketing & Reporting</h2>
             <p>
               I throw myself down among the tall grass by the stream as I lie
               close to the earth.
             </p>
           </div>
           <div className="service__card">
-            <div> Icon </div>
-            <h3>
+            <div className="card__icon"> <FiMonitor /> </div>
+            <h2>
               Mobile App <br />
               Development
-            </h3>
+            </h2>
             <p>
               I throw myself down among the tall grass by the stream as I lie
               close to the earth.

@@ -1,7 +1,7 @@
-import { AiOutlineInstagram } from "react-icons/ai";
-import { RiFacebookLine } from "react-icons/ri";
-import { RiLinkedinBoxLine } from "react-icons/ri";
-import { AiFillGithub } from "react-icons/ai";
+import { RiInstagramLine } from "react-icons/ri";
+import { RiFacebookFill } from "react-icons/ri";
+import { RiLinkedinFill } from "react-icons/ri";
+import { RiGithubFill } from "react-icons/ri";
 import "../main/NavbarApp.css";
 function NavbarApp() {
   return (
@@ -11,11 +11,21 @@ function NavbarApp() {
           <div className="header__logo">Ibrohim</div>
           <div className="header__menu">
             <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Service</li>
-              <li>Portfolio</li>
-              <li>Contact</li>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#service">Service</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -24,16 +34,28 @@ function NavbarApp() {
           <div className="header__icons">
             <ul>
               <li>
-                <AiOutlineInstagram />
+                <a href="#">
+                  {" "}
+                  <RiInstagramLine />
+                </a>
               </li>
               <li>
-                <RiFacebookLine />
+                <a href="#">
+                  {" "}
+                  <RiFacebookFill />
+                </a>
               </li>
               <li>
-                <RiLinkedinBoxLine />
+                <a href="#">
+                  {" "}
+                  <RiLinkedinFill />
+                </a>
               </li>
               <li>
-                <AiFillGithub />
+                <a href="#">
+                  {" "}
+                  <RiGithubFill />
+                </a>
               </li>
             </ul>
           </div>

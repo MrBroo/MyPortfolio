@@ -7,14 +7,54 @@
 .contact {
   width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 85px;
+  margin-bottom: 85px;
 }
 
 .contact__left > h1 {
   color: white;
   font-weight: 800;
+  margin-bottom: 10px;
 }
 
 .contact__left > p {
   color: white;
+  font-size: 18px;
+}
+
+.contact__left > :nth-child(2) {
+  margin: 0;
+}
+
+.contact__send {
+  display: flex;
+}
+
+.name__input {
+  margin-right: 45px;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 6px;
+}
+
+.email__input {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 6px;
+}
+
+.contact__right > div > textarea {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 15px;
+  color: white;
+  width: 100%;
+  margin-top: 30px;
+  height: 165px;
+  border-radius: 6px;
 }

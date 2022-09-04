@@ -2,7 +2,7 @@ import "../main/Header.css";
 
 function Header() {
   return (
-    <div className="header__body">
+    <div className="header__body" id="home">
       <div className="header__content">
         <p className="header__toptext">WELCOME TO MY WORLD</p>
         <p className="header__text">Hi, I`m Ibrokhim</p>
