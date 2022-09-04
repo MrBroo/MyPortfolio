@@ -10,29 +10,33 @@
   width: 70%;
 }
 .header__toptext {
-  font-weight: 200;
-  color: white;
+  font-weight: 400;
+  color: gray;
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-size: 1.2vw;
 }
 
 .header__text {
   color: white;
   font-weight: 900;
-  font-size: 55px;
+  font-size: 5vw;
   margin: 0;
+  line-height: 6vw;
 }
+
 
 .header__textmoution {
   color: #f9004d;
   font-weight: 900;
-  font-size: 55px;
+  font-size: 5vw;
   margin: 0;
+  line-height: 4vw; 
 }
 
 .header__bottomtext {
   color: white;
   font-weight: 900;
-  font-size: 45px;
+  font-size: 4vw;
   margin: 0;
 }

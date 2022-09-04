@@ -1,38 +1,137 @@
 .about__body {
   background-color: #191919;
+  display: flex;
+  justify-content: center;
 }
 
 .about {
   display: flex;
+  justify-content: center;
   padding-top: 150px;
   padding-bottom: 150px;
   width: 80%;
-  margin: 0 auto;
-  flex: 1;
 }
 
 .about__img {
   height: 550px;
   width: 400px;
   background-color: white;
-  margin-right: 80px;
+  margin-right: 60px;
 }
 
 .about__right {
   margin-top: 35px;
 }
 
-.about__right > h1{
-    font-weight: 800;
-    color: white;
-    font-size: 55px;
-    margin-bottom: 11px;
+.about__right > h1 {
+  font-weight: 800;
+  color: white;
+  font-size: 50px;
+  margin-bottom: 14px;
 }
 
-.about__right > p{
-    color: white;
+.about__right > p {
+  color: gray;
+  font-size: 18px;
 }
 
-.nav_link{
-    color: white !important;
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.containerTab {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin-top: 28px;
+  word-break: break-all;
+}
+
+.bloc-tabs {
+  display: flex;
+}
+
+.tabs {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: #191919;
+  cursor: pointer;
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+  font-weight: 500;
+  margin-right: 35px;
+}
+
+.tabs::before{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -6px;
+  left: 25%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 1px;
+  background: #f9004d;  
+}
+
+.active-tabs {
+  color: #f9004d;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 1px;
+  background: #f9004d;
+  transition: all 0.3s ease;
+}
+
+button {
+  border: none;
+  color: #fff;
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+
+.content {
+  padding-top: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.content h2 {
+  padding: 0px 0 5px 0px;
+  color: #fff;
+}
+
+.content hr {
+  width: 100px;
+  height: 2px;
+  margin-bottom: 5px;
+}
+
+.content p {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.active-content {
+  display: block;
 }

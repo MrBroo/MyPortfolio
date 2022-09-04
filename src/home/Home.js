@@ -3,6 +3,7 @@ import Contact from "../header/Contact";
 import Footer from "../header/Footer";
 import Header from "../header/Header";
 import NavbarApp from "../header/NavbarApp";
+import Portfolio from "../header/Portfolio";
 import Service from "../header/Service";
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
       <Header />
       <About />
       <Service />
+      <Portfolio />
       <Contact />
       <Footer />
     </>

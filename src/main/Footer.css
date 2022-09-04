@@ -35,11 +35,14 @@
     font-weight: 400;
     display: flex;
     align-items: center;
+    transition: all 0.3s linear;
 }
 
 .footer__icons > ul >li:hover{
     background-color: #f9004d;
     color: white;
+    transform: translateY(-15%);
+
 }
 
 .footer__right{
