@@ -12,6 +12,14 @@ function Portfolio() {
   return (
     <div className="portfolio__body">
       <div className="portfolio">
+        <div className="portfolio__text">
+          <h1>My Some Projects</h1>
+          <p>
+            {" "}
+            There are many variations of passages of Lorem Ipsum available, but
+            the <br /> majority have suffered alteration.
+          </p>
+        </div>
         <div className="container1">
           <div className="bloc-tabs1">
             <button
@@ -47,10 +55,34 @@ function Portfolio() {
               }
             >
               <div className="content__card">
-                <div>
+                <div className="card__body">
+                  <a href="#" className="card__hover">
+                    <div className="card__more">
+                      <div>
+                        <h3>Click button for more see</h3>
+                        <p>
+                          I throw myself down among the tall grass by the stream
+                          as I lie close to the earth.
+                        </p>
+                        <button>More</button>
+                      </div>
+                    </div>
+                  </a>
                   <img src={tabsImg} className="card__img" />
                 </div>
-                <div>
+                <div className="card__body">
+                  <a href="#" className="card__hover">
+                    <div className="card__more">
+                      <div>
+                        <h3>Click button for more see</h3>
+                        <p>
+                          I throw myself down among the tall grass by the stream
+                          as I lie close to the earth.
+                        </p>
+                        <button>More</button>
+                      </div>
+                    </div>
+                  </a>
                   <img src={tabsImg} className="card__img" />
                 </div>
               </div>
@@ -60,11 +92,35 @@ function Portfolio() {
                 toggleState === 2 ? "content1  active-content1" : "content1"
               }
             >
-               <div className="content__card">
-                <div>
+              <div className="content__card">
+                <div className="card__body">
+                  <a href="#" className="card__hover">
+                    <div className="card__more">
+                      <div>
+                        <h3>Click button for more see</h3>
+                        <p>
+                          I throw myself down among the tall grass by the stream
+                          as I lie close to the earth.
+                        </p>
+                        <button>More</button>
+                      </div>
+                    </div>
+                  </a>
                   <img src={tabsImg} className="card__img" />
                 </div>
-                <div>
+                <div className="card__body">
+                  <a href="#" className="card__hover">
+                    <div className="card__more">
+                      <div>
+                        <h3>Click button for more see</h3>
+                        <p>
+                          I throw myself down among the tall grass by the stream
+                          as I lie close to the earth.
+                        </p>
+                        <button>More</button>
+                      </div>
+                    </div>
+                  </a>
                   <img src={tabsImg} className="card__img" />
                 </div>
               </div>
@@ -75,25 +131,90 @@ function Portfolio() {
               }
             >
               <div className="content__card">
-                <div>
+                <div className="card__body">
+                  <a href="#" className="card__hover">
+                    <div className="card__more">
+                      <div>
+                        <h3>Click button for more see</h3>
+                        <p>
+                          I throw myself down among the tall grass by the stream
+                          as I lie close to the earth.
+                        </p>
+                        <button>More</button>
+                      </div>
+                    </div>
+                  </a>
                   <img src={tabsImg} className="card__img" />
                 </div>
-                <div>
+                <div className="card__body">
+                  <a href="#" className="card__hover">
+                    <div className="card__more">
+                      <div>
+                        <h3>Click button for more see</h3>
+                        <p>
+                          I throw myself down among the tall grass by the stream
+                          as I lie close to the earth.
+                        </p>
+                        <button>More</button>
+                      </div>
+                    </div>
+                  </a>
                   <img src={tabsImg} className="card__img" />
                 </div>
               </div>
-            </div>
-            <div
-              className={
-                toggleState === 4 ? "content1  active-content1" : "content1"
-              }
-            >
-              <div className="content__card">
-                <div>
-                  <img src={tabsImg} className="card__img" />
-                </div>
-                <div>
-                  <img src={tabsImg} className="card__img" />
+              <div
+                className={
+                  toggleState === 4 ? "content1  active-content1" : "content1"
+                }
+              >
+                <div className="content__card">
+                  <div className="card__body">
+                    <a href="#" className="card__hover">
+                      <div className="card__more">
+                        <div>
+                          <h3>Click button for more see</h3>
+                          <p>
+                            I throw myself down among the tall grass by the
+                            stream as I lie close to the earth.
+                          </p>
+                          <button>More</button>
+                        </div>
+                      </div>
+                    </a>
+                    <img src={tabsImg} className="card__img" />
+                  </div>
+                  <div className="content__card">
+                    <div className="card__body">
+                      <a href="#" className="card__hover">
+                        <div className="card__more">
+                          <div>
+                            <h3>Click button for more see</h3>
+                            <p>
+                              I throw myself down among the tall grass by the
+                              stream as I lie close to the earth.
+                            </p>
+                            <button>More</button>
+                          </div>
+                        </div>
+                      </a>
+                      <img src={tabsImg} className="card__img" />
+                    </div>
+                    <div className="card__body">
+                      <a href="#" className="card__hover">
+                        <div className="card__more">
+                          <div>
+                            <h3>Click button for more see</h3>
+                            <p>
+                              I throw myself down among the tall grass by the
+                              stream as I lie close to the earth.
+                            </p>
+                            <button>More</button>
+                          </div>
+                        </div>
+                      </a>
+                      <img src={tabsImg} className="card__img" />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

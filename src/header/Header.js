@@ -8,12 +8,7 @@ function Header() {
 
         <p className="header__text">
           Hi, I`m Ibrokhim
-          <Fade bottom forever duration={2000} mirror="top">
-            <div className="header__textmoution">JS Developer</div>
-          </Fade>
-          <Fade bottom forever delay={3000}>
-          <div className="header__textmoution">J</div>
-          </Fade>
+          <div className="header__textmoution">JS Developer</div>
         </p>
         <p className="header__bottomtext">based in UZB</p>
       </div>

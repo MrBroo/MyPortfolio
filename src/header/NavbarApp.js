@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { RiInstagramLine } from "react-icons/ri";
 import { RiFacebookFill } from "react-icons/ri";
 import { RiLinkedinFill } from "react-icons/ri";
@@ -12,19 +13,27 @@ function NavbarApp() {
           <div className="header__menu">
             <ul>
               <li>
-                <a href="#home">Home</a>
+                <a href="#home" className="navbar__a">
+                  Home
+                </a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#about" className="navbar__a">
+                  About
+                </a>
               </li>
               <li>
-                <a href="#service">Service</a>
+                <a href="#service" className="navbar__a">
+                  Service
+                </a>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
+                <a className="navbar__a" href="#portfolio">Portfolio</a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact" className="navbar__a">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>

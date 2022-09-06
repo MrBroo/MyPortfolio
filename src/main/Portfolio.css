@@ -7,15 +7,27 @@
 .portfolio {
   width: 80%;
   height: 250px;
-  display: flex;
-  justify-content: center;
-  margin: 400px 0;
+  margin-top: 75px;
+  margin-bottom: 400px;
+}
+
+.portfolio__text {
+  text-align: center;
+  margin-bottom: 4 5px;
+}
+
+.portfolio__text > h1 {
+  font-weight: 800;
+  color: white;
+}
+
+.portfolio__text > p {
+  color: gray;
 }
 
 .container1 {
   display: flex;
   flex-direction: column;
-  position: relative;
   width: 100%;
   height: 300px;
 }
@@ -79,19 +91,60 @@ button {
   display: block;
 }
 
-.content__card{
-display: flex;
-justify-content: space-between;
-
+.content__card {
+  display: flex;
+  justify-content: space-between;
 }
 
-.content__card > div{
+.content__card > div {
   display: flex;
   flex: 1;
   margin-right: 25px;
 }
-.card__img{
+.card__img {
   width: 100%;
   max-height: 600px;
   margin-right: 25px;
+}
+
+.card__body {
+  position: relative;
+}
+
+.card__hover {
+  transition: all 0.2s linear;
+  background-image: linear-gradient(180deg, #f61b108e, #ef096138);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-decoration: none;
+}
+
+.card__hover:hover  {
+  opacity: 1;
+}
+.card__more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.card__more div {
+  color: white;
+  text-align: center;
+}
+
+.card__more div button {
+  border-radius: 6px;
+  padding: 5px 25px;
+  color: white;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  font-weight: 500;
 }

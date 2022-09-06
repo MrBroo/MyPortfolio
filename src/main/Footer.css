@@ -7,8 +7,8 @@
     width: 90%;
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     align-items: center;
 }
 
@@ -35,13 +35,13 @@
     font-weight: 400;
     display: flex;
     align-items: center;
-    transition: all 0.3s linear;
+    transition: all 0.3s ease;
 }
 
 .footer__icons > ul >li:hover{
     background-color: #f9004d;
     color: white;
-    transform: translateY(-15%);
+    transform: translateY(-10%);
 
 }
 
