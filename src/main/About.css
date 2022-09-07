@@ -70,7 +70,7 @@
   margin-right: 35px;
 }
 
-.tabs::before{
+.tabs::before {
   content: "";
   display: block;
   position: absolute;
@@ -79,7 +79,7 @@
   transform: translateX(-50%);
   width: 50%;
   height: 1px;
-  background: #f9004d;  
+  background: #f9004d;
 }
 
 .active-tabs {
@@ -135,3 +135,34 @@ button {
 .active-content {
   display: block;
 }
+
+@media (max-width: 1040px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__img {
+    margin-right: 0;
+  }
+
+  .about__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__right > p {
+    text-align: center;
+  }
+
+  .containerTab {
+    width: 100%;
+  }
+
+  .bloc-tabs {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+

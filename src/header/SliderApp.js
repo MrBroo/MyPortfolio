@@ -55,7 +55,7 @@ function SliderApp() {
                 </div>
               </div>
               <div className="slide__right">
-                <img src={tabsImg} className="slide__img" />
+                <img src={carouselImg} className="slide__img" />
               </div>
             </div>
           </Carousel.Item>
@@ -77,7 +77,7 @@ function SliderApp() {
                 </div>
               </div>
               <div className="slide__right">
-                <img src={tabsImg} className="slide__img" />
+                <img src={carouselImg} className="slide__img" />
               </div>
             </div>
           </Carousel.Item>

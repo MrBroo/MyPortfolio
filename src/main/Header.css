@@ -7,7 +7,7 @@
 }
 
 .header__content {
-  width: 70%;
+  width: 90%;
 }
 .header__toptext {
   font-weight: 400;
@@ -25,13 +25,12 @@
   line-height: 6vw;
 }
 
-
 .header__textmoution {
   color: #f9004d;
   font-weight: 900;
   font-size: 5vw;
   margin: 0;
-  line-height: 4vw; 
+  line-height: 4vw;
 }
 
 .header__bottomtext {
