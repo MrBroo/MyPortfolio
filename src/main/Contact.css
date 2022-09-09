@@ -58,3 +58,46 @@
   height: 165px;
   border-radius: 6px;
 }
+
+@media (max-width: 1165px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__left {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact__send {
+    display: block;
+  }
+  .contact__send input {
+    width: 100%;
+    margin: 0;
+
+  }
+
+  .contact__send input:nth-child(1){
+    margin-bottom: 25px;
+  }
+
+  .contact__right{
+    width: 400px;
+  }
+}
+
+@media (max-width: 420px){
+  .contact__right{
+    width: 300px;
+  }
+} 
+
+@media (max-width: 300px){
+  .contact__right{
+    width: 200px;
+  }
+} 

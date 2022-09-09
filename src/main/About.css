@@ -166,3 +166,9 @@ button {
   }
 }
 
+@media (max-width: 480px) {
+  .about__img {
+    height: 450px;
+    width: 300px;
+  }
+}

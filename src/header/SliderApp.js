@@ -1,5 +1,5 @@
 import "../main/Slider.css";
-import carouselImg from "../images/e1ba95dc7351e6540d5e50657181fec5.jpg";
+import carouselImg from "../images/img_avatar3.png";
 import carouselImg2 from "../images/download.png";
 import { CgQuoteO } from "react-icons/cg";
 import Carousel from "react-bootstrap/Carousel";
@@ -7,147 +7,100 @@ function SliderApp() {
   return (
     <div class="slide__body">
       <div className="slide">
-        <Carousel variant="dark">
+        <Carousel variant="white">
           <Carousel.Item>
-          <div class="karusel border">
-                <div class="karuseltext">
-                  Ayni paytda TPS eng yuqori saviyadagi ma’lumot <br />
-                  uzatish global taqmog‘iga yuqori tezlikda kirish <br />
-                  imkonini yaratuvchi xizmatni taklif etaoladigan
-                  <br />intellektual va texnik quvvatga ega.
-                </div>
-                <div class="karuseltext1 mb-3">
-                  Tania Perfilyeva
-                  <div class="text-secondary">Java Bootcamp talabasi</div>
-                </div>
+            <div class="carousel border">
+              <div class="carousel__text">
+                Ayni paytda TPS eng yuqori saviyadagi ma’lumot <br />
+                uzatish global taqmog‘iga yuqori tezlikda kirish <br />
+                imkonini yaratuvchi xizmatni taklif etaoladigan
+                <br />
+                intellektual va texnik quvvatga ega.
               </div>
-              <div className="slide__quote">
-                <CgQuoteO />
+              <div class="carousel__text mb-3">
+                Tania Perfilyeva
+                <div class="text-secondary">Java Bootcamp talabasi</div>
               </div>
               <img
-               src={carouselImg}
-                height="335"
-                width="330"
-                class="karuselimg"
+                src={carouselImg}
+                // height="335"
+                // width="330"
+                class="slide__img"
               />
               <img
                 src={carouselImg2}
-                height="251"
-                width="248"
-                class="karuselimg2"
+                // height="251"
+                // width="248"
+                class="slide__back__img"
               />
-          </Carousel.Item>
-          <Carousel.Item>
-            <div className="slide__content">
-              <div className="slide__quote">
-                <CgQuoteO />
-              </div>
-              <div className="slide__left">
-                <p>
-                  I throw myself down among the tall grass by the stream as I
-                  lie close to the earth. I throw myself down among the tall
-                  grass by the stream as I lie close to the earth. I throw
-                  myself down among the tall grass by the
-                </p>
-                <div className="slide__man">
-                  <p>Abduvali Rajabov</p>
-                  <p>Java Developer</p>
-                </div>
-              </div>
-              <div className="slide__right">
-                <img src={carouselImg} className="slide__img" />
-              </div>
+            </div>
+            <div className="slide__quote">
+              <CgQuoteO />
             </div>
           </Carousel.Item>
           <Carousel.Item>
-            <div className="slide__content">
+            <div class="carousel border">
               <div className="slide__quote">
                 <CgQuoteO />
               </div>
-              <div className="slide__left">
-                <p>
-                  I throw myself down among the tall grass by the stream as I
-                  lie close to the earth. I throw myself down among the tall
-                  grass by the stream as I lie close to the earth. I throw
-                  myself down among the tall grass by the
-                </p>
-                <div className="slide__man">
-                  <p>Abduvali Rajabov</p>
-                  <p>Java Developer</p>
-                </div>
+              <div class="carousel__text">
+                Ayni paytda TPS eng yuqori saviyadagi ma’lumot <br />
+                uzatish global taqmog‘iga yuqori tezlikda kirish <br />
+                imkonini yaratuvchi xizmatni taklif etaoladigan
+                <br />
+                intellektual va texnik quvvatga ega.
               </div>
-              <div className="slide__right">
-                <img src={carouselImg} className="slide__img" />
+              <div class="carousel__text mb-3">
+                Tania Perfilyeva
+                <div class="text-secondary">Java Bootcamp talabasi</div>
               </div>
+               <img
+              src={carouselImg}
+              // height="335"
+              // width="330"
+              class="slide__img"
+            />
+            <img
+              src={carouselImg2}
+              // height="251"
+              // width="248"
+              class="slide__back__img"
+            />
+            </div>
+
+           
+          </Carousel.Item>
+          <Carousel.Item>
+            <div class="carousel border">
+              <div class="carousel__text">
+                Ayni paytda TPS eng yuqori saviyadagi ma’lumot <br />
+                uzatish global taqmog‘iga yuqori tezlikda kirish <br />
+                imkonini yaratuvchi xizmatni taklif etaoladigan
+                <br />
+                intellektual va texnik quvvatga ega.
+              </div>
+              <div class="carousel__text mb-3">
+                Tania Perfilyeva
+                <div class="text-secondary">Java Bootcamp talabasi</div>
+              </div>
+              <img
+                src={carouselImg}
+                // height="335"
+                // width="330"
+                class="slide__img"
+              />
+              <img
+                src={carouselImg2}
+                // height="251"
+                // width="248"
+                class="slide__back__img"
+              />
+            </div>
+            <div className="slide__quote">
+              <CgQuoteO />
             </div>
           </Carousel.Item>
         </Carousel>
-        {/* <OwlCarousel className="owl-theme" {...options}>
-          <div className="item">
-            <div className="slide__content">
-              <div className="slide__quote">
-                <CgQuoteO />
-              </div>
-              <div className="slide__left">
-                <p>
-                  I throw myself down among the tall grass by the stream as I
-                  lie close to the earth. I throw myself down among the tall
-                  grass by the stream as I lie close to the earth. I throw
-                  myself down among the tall grass by the
-                </p>
-                <div className="slide__man">
-                  <p>Abduvali Rajabov</p>
-                  <p>Java Developer</p>
-                </div>
-              </div>
-              <div className="slide__right">
-                <img src={tabsImg} className="slide__img" />
-               
-              </div>
-            </div>
-          </div>
-          <div className="item">
-            <div className="slide__content">
-              <div className="slide__left">
-                <p>
-                  I throw myself down among the tall grass by the stream as I
-                  lie close to the earth. I throw myself down among the tall
-                  grass by the stream as I lie close to the earth. I throw
-                  myself down among the tall grass by the stream as I lie close
-                  to the earth. I throw myself down among the tall
-                </p>
-
-                <div className="slide__man">
-                  <p>Abduvali Rajabov</p>
-                  <p>Java Developer</p>
-                </div>
-              </div>
-              <div className="slide__right">
-                <img src={tabsImg} width="330" height="335" />
-              </div>
-            </div>
-          </div>
-          <div className="item">
-            <div className="slide__content">
-              <div className="slide__left">
-                <p>
-                  I throw myself down among the tall grass by the stream as I
-                  lie close to the earth. I throw myself down among the tall
-                  grass by the stream as I lie close to the earth. I throw
-                  myself down among the tall grass by the stream as I lie close
-                  to the earth. I throw myself down among the tall
-                </p>
-                <div className="slide__man">
-                  <p>Abduvali Rajabov</p>
-                  <p>Java Developer</p>
-                </div>
-              </div>
-              <div className="slide__right">
-                <img src={tabsImg} width="330" height="335" />
-              </div>
-            </div>
-          </div>
-        </OwlCarousel> */}
       </div>
     </div>
   );

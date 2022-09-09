@@ -48,3 +48,25 @@
 .footer__right{
     color: rgba(198,201,216,.75);
 }
+
+
+@media (max-width: 970px) {
+
+    .footer{
+        flex-direction: column;
+    }
+    
+    .footer__icons{
+        margin: 25px 0px;
+    }
+    .footer__icons ul{
+     padding: 0;
+    }
+    }
+    
+    @media (max-width: 500px){
+        .footer__right{
+            text-align: center;
+        }
+    }
+    

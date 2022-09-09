@@ -20,12 +20,8 @@ function Contact() {
         </div>
         <div className="contact__right">
           <div className="contact__send">
-            <div>
-              <input placeholder="Name" className="name__input" />
-            </div>
-            <div>
-              <input placeholder="Email" className="email__input" />
-            </div>
+            <input placeholder="Name" className="name__input" />
+            <input placeholder="Email" className="email__input" />
           </div>
           <div>
             <textarea placeholder="Message" />

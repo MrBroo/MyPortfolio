@@ -40,12 +40,6 @@ function Portfolio() {
             >
               Html
             </button>
-            <button
-              className={toggleState === 4 ? "tabs1 active-tabs1" : "tabs1"}
-              onClick={() => toggleTab(4)}
-            >
-              Fullstack
-            </button>
           </div>
 
           <div className="content-tabs1">
@@ -160,61 +154,6 @@ function Portfolio() {
                     </div>
                   </a>
                   <img src={tabsImg} className="card__img" />
-                </div>
-              </div>
-              <div
-                className={
-                  toggleState === 4 ? "content1  active-content1" : "content1"
-                }
-              >
-                <div className="content__card">
-                  <div className="card__body">
-                    <a href="#" className="card__hover">
-                      <div className="card__more">
-                        <div>
-                          <h3>Click button for more see</h3>
-                          <p>
-                            I throw myself down among the tall grass by the
-                            stream as I lie close to the earth.
-                          </p>
-                          <button>More</button>
-                        </div>
-                      </div>
-                    </a>
-                    <img src={tabsImg} className="card__img" />
-                  </div>
-                  <div className="content__card">
-                    <div className="card__body">
-                      <a href="#" className="card__hover">
-                        <div className="card__more">
-                          <div>
-                            <h3>Click button for more see</h3>
-                            <p>
-                              I throw myself down among the tall grass by the
-                              stream as I lie close to the earth.
-                            </p>
-                            <button>More</button>
-                          </div>
-                        </div>
-                      </a>
-                      <img src={tabsImg} className="card__img" />
-                    </div>
-                    <div className="card__body">
-                      <a href="#" className="card__hover">
-                        <div className="card__more">
-                          <div>
-                            <h3>Click button for more see</h3>
-                            <p>
-                              I throw myself down among the tall grass by the
-                              stream as I lie close to the earth.
-                            </p>
-                            <button>More</button>
-                          </div>
-                        </div>
-                      </a>
-                      <img src={tabsImg} className="card__img" />
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

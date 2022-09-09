@@ -39,3 +39,65 @@
   font-size: 4vw;
   margin: 0;
 }
+
+@media (max-width: 700px) {
+  .header__toptext {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    
+  }
+
+  .header__text {
+    line-height: 48px;
+  }
+  .header__text {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .header__textmoution {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .header__bottomtext {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .header__body {
+    height: 600px;
+  }
+}
+
+@media (max-width: 450px) {
+  .header__toptext {
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+    
+  }
+
+  .header__text {
+    line-height: 43px;
+  }
+  .header__text {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .header__textmoution {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .header__bottomtext {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .header__body {
+    height: 600px;
+  }
+}

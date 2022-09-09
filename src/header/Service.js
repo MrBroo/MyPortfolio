@@ -54,8 +54,6 @@ function Service() {
               close to the earth.
             </p>
           </div>
-        </div>
-        <div className="service__content">
           <div className="service__card">
             <div className="card__icon">
               {" "}

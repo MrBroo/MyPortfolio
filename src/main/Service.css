@@ -28,12 +28,13 @@
 .service__content {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   flex: 1;
 }
 
 .service__card {
-  width: 33%;
-  height: 283px;
+  width: 360px;
+  height: 300px;
   padding: 60px 35px;
   background-color: #191919;
   margin: 15px;
@@ -74,9 +75,19 @@
   color: white;
 }
 
-
-@media (max-width: 1237px) {
+@media (max-width: 970px) {
   .service__card {
-    width: 50%;
+    width: 280px;
+    height: 260px;
+    background-image: linear-gradient(90deg, #f61b10, #ef0963);
   }
+  .card__icon{
+    color: white
+  }
+
+  .service__card > p {
+    font-size: 14px;
+    color: white;
+  }
+
 }
