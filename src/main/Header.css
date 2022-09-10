@@ -43,27 +43,27 @@
 @media (max-width: 700px) {
   .header__toptext {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     margin: 0;
     
   }
 
   .header__text {
-    line-height: 48px;
+    line-height: 55px;
   }
   .header__text {
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .header__textmoution {
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .header__bottomtext {
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .header__body {
@@ -74,27 +74,27 @@
 @media (max-width: 450px) {
   .header__toptext {
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     margin: 0;
     
   }
 
   .header__text {
-    line-height: 43px;
+    line-height: 50px;
   }
   .header__text {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .header__textmoution {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .header__bottomtext {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .header__body {

@@ -37,7 +37,11 @@ function About() {
                 Experience
               </button>
               <button
-                className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
+                className={
+                  toggleState === 3
+                    ? "tab__self tabs active-tabs "
+                    : "tab__self tabs"
+                }
                 onClick={() => toggleTab(3)}
               >
                 Education & Certification

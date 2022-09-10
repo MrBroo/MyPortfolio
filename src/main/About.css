@@ -171,4 +171,18 @@ button {
     height: 450px;
     width: 300px;
   }
+
+  .bloc-tabs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .bloc-tabs .tabs {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .tab__self {
+    justify-self: center;
+  }
 }

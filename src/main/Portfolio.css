@@ -149,7 +149,30 @@ button {
   font-weight: 500;
 }
 
+@media (max-width: 1200px) {
+  .portfolio{
+    margin-bottom: 350px;
+  }
+  
+}
+
+
+@media (max-width: 1000px) {
+  .portfolio{
+    margin-bottom: 250px;
+  }
+}
+
+@media (max-width: 800px) {
+  .portfolio{
+    margin-bottom: 200px;
+  }
+}
 @media (max-width: 612px) {
+
+  .portfolio{
+    margin-bottom: 550px;
+  }
   .content__card {
     flex-direction: column;
   }
@@ -157,12 +180,17 @@ button {
   .content__card > div {
     margin-right: 0;
   }
+
+  .active-tabs1::before {
+    width: 75%;
+
+  }
   .card__img {
     margin-bottom: 25px;
     margin-right: 0;
   }
 
-  .portfolio {
-    margin-bottom: 650px;
+  .card__hover {
+    display: none;
   }
 }

@@ -1,72 +1,67 @@
-.footer__body{
-    background-color: #101010;
-    display: flex;
-    justify-content: center;
+.footer__body {
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
 }
-.footer{
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    align-items: center;
-}
-
-
-.footer__icons > ul{
-    display: flex;
-    list-style-type: none;
-    margin: 0;
+.footer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
 }
 
-.footer__logo{
-    font-weight: 500;
-    font-size: 20px;
-    color: rgba(198,201,216,.75);
+.footer__icons > ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
 }
 
-.footer__icons > ul > li{
-    margin: 0 7px;
-    padding: 9px 8px;
-    border: 2px solid rgba(198,201,216,.75);
-    border-radius: 50%;
-    color:rgba(198,201,216,.75);
-    font-size: 20px;
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-    transition: all 0.3s ease;
+.footer__logo {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(198, 201, 216, 0.75);
 }
 
-.footer__icons > ul >li:hover{
-    background-color: #f9004d;
-    color: white;
-    transform: translateY(-10%);
-
+.footer__icons > ul > li {
+  margin: 0 7px;
+  padding: 9px 8px;
+  border: 2px solid rgba(198, 201, 216, 0.75);
+  border-radius: 50%;
+  color: rgba(198, 201, 216, 0.75);
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
 }
 
-.footer__right{
-    color: rgba(198,201,216,.75);
+.footer__icons > ul > li:hover {
+  background-color: #f9004d;
+  color: white;
+  transform: translateY(-10%);
 }
 
+.footer__right {
+  color: rgba(198, 201, 216, 0.75);
+}
 
 @media (max-width: 970px) {
+  .footer {
+    flex-direction: column;
+  }
 
-    .footer{
-        flex-direction: column;
-    }
-    
-    .footer__icons{
-        margin: 25px 0px;
-    }
-    .footer__icons ul{
-     padding: 0;
-    }
-    }
-    
-    @media (max-width: 500px){
-        .footer__right{
-            text-align: center;
-        }
-    }
-    
+  .footer__icons {
+    margin: 25px 0px;
+  }
+  .footer__icons ul {
+    padding: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer__right {
+    text-align: center;
+  }
+}

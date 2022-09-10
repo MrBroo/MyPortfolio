@@ -3,7 +3,7 @@ import { RiInstagramLine } from "react-icons/ri";
 import { RiFacebookFill } from "react-icons/ri";
 import { RiLinkedinFill } from "react-icons/ri";
 import { RiGithubFill } from "react-icons/ri";
-import { AiFillAppstore } from "react-icons/ai";
+import { AiOutlineMenu } from "react-icons/ai";
 import { HiOutlineX } from "react-icons/hi";
 import "../main/NavbarApp.css";
 
@@ -79,12 +79,20 @@ function NavbarApp() {
               </ul>
             </div>
             <div>
-              <AiFillAppstore
+              <AiOutlineMenu
                 className={
                   navState === 1 ? "nav__button__active" : "nav__button"
                 }
                 onClick={() => toggleTab(1)}
               />
+              <div
+                className={
+                  navState === 0 ? "nav__mobile__none " : "nav__cancel__button"
+                }
+                onClick={() => toggleTab(0)}
+              >
+                <HiOutlineX />
+              </div>
               <button className="header__button">
                 <strong>Contact me</strong>
               </button>
@@ -157,12 +165,6 @@ function NavbarApp() {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div
-              className={navState === 0 ? "nav__button" : "nav__cancel__button"}
-              onClick={() => toggleTab(0)}
-            >
-              <HiOutlineX />
             </div>
           </div>
         </div>

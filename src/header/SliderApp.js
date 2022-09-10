@@ -11,13 +11,11 @@ function SliderApp() {
           <Carousel.Item>
             <div class="carousel border">
               <div class="carousel__text">
-                Ayni paytda TPS eng yuqori saviyadagi ma’lumot <br />
-                uzatish global taqmog‘iga yuqori tezlikda kirish <br />
-                imkonini yaratuvchi xizmatni taklif etaoladigan
-                <br />
-                intellektual va texnik quvvatga ega.
+                Ayni paytda TPS eng yuqori saviyadagi ma’lumot uzatish global
+                taqmog‘iga yuqori tezlikda kirish imkonini yaratuvchi xizmatni
+                taklif etaoladigan intellektual va texnik quvvatga ega.
               </div>
-              <div class="carousel__text mb-3">
+              <div class="carousel__back_text mb-3">
                 Tania Perfilyeva
                 <div class="text-secondary">Java Bootcamp talabasi</div>
               </div>
@@ -44,42 +42,11 @@ function SliderApp() {
                 <CgQuoteO />
               </div>
               <div class="carousel__text">
-                Ayni paytda TPS eng yuqori saviyadagi ma’lumot <br />
-                uzatish global taqmog‘iga yuqori tezlikda kirish <br />
-                imkonini yaratuvchi xizmatni taklif etaoladigan
-                <br />
-                intellektual va texnik quvvatga ega.
+                Ayni paytda TPS eng yuqori saviyadagi ma’lumot uzatish global
+                taqmog‘iga yuqori tezlikda kirish imkonini yaratuvchi xizmatni
+                taklif etaoladigan intellektual va texnik quvvatga ega.
               </div>
-              <div class="carousel__text mb-3">
-                Tania Perfilyeva
-                <div class="text-secondary">Java Bootcamp talabasi</div>
-              </div>
-               <img
-              src={carouselImg}
-              // height="335"
-              // width="330"
-              class="slide__img"
-            />
-            <img
-              src={carouselImg2}
-              // height="251"
-              // width="248"
-              class="slide__back__img"
-            />
-            </div>
-
-           
-          </Carousel.Item>
-          <Carousel.Item>
-            <div class="carousel border">
-              <div class="carousel__text">
-                Ayni paytda TPS eng yuqori saviyadagi ma’lumot <br />
-                uzatish global taqmog‘iga yuqori tezlikda kirish <br />
-                imkonini yaratuvchi xizmatni taklif etaoladigan
-                <br />
-                intellektual va texnik quvvatga ega.
-              </div>
-              <div class="carousel__text mb-3">
+              <div class="carousel__back_text mb-3">
                 Tania Perfilyeva
                 <div class="text-secondary">Java Bootcamp talabasi</div>
               </div>
@@ -95,6 +62,21 @@ function SliderApp() {
                 // width="248"
                 class="slide__back__img"
               />
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div class="carousel border">
+              <div class="carousel__text">
+                Ayni paytda TPS eng yuqori saviyadagi ma’lumot uzatish global
+                taqmog‘iga yuqori tezlikda kirish imkonini yaratuvchi xizmatni
+                taklif etaoladigan intellektual va texnik quvvatga ega.
+              </div>
+              <div class="carousel__back_text mb-3">
+                Tania Perfilyeva
+                <div class="text-secondary">Java Bootcamp talabasi</div>
+              </div>
+              <img src={carouselImg} class="slide__img" />
+              <img src={carouselImg2} class="slide__back__img" />
             </div>
             <div className="slide__quote">
               <CgQuoteO />
