@@ -15,8 +15,7 @@ function Service() {
             <h1>My Awesome Service</h1>
             <p>
               {" "}
-              There are many variations of passages of Lorem Ipsum available,
-              but the <br /> majority have suffered alteration.
+              Everything I offer with a detailed overview of each.
             </p>
           </div>
         </div>
@@ -26,32 +25,25 @@ function Service() {
               {" "}
               <FiMonitor />{" "}
             </div>
-            <h3>Business Strgatagy</h3>
-            <p>
-              I throw myself down among the tall grass by the stream as I lie
-              close to the earth.
-            </p>
+            <h3>Single Page Application</h3>
+            <p>My single page application is fast and easy to understand.</p>
           </div>
           <div className="service__card">
             <div className="card__icon">
               {" "}
               <AiOutlineMobile />{" "}
             </div>
-            <h3>Website Development</h3>
-            <p>
-              I throw myself down among the tall grass by the stream as I lie
-              close to the earth.
-            </p>
+            <h3>Full Responsive</h3>
+            <p>My layouts will work on any device, big or small.</p>
           </div>
           <div className="service__card">
             <div className="card__icon">
               {" "}
               <IoLogoBuffer />{" "}
             </div>
-            <h3>Marketing & Reporting</h3>
+            <h3>Fast</h3>
             <p>
-              I throw myself down among the tall grass by the stream as I lie
-              close to the earth.
+            Fast load times and lag free interaction, my highest priority.
             </p>
           </div>
           <div className="service__card">
@@ -59,13 +51,10 @@ function Service() {
               {" "}
               <MdDns />{" "}
             </div>
-            <h3>
-              Mobile App <br />
-              Development
-            </h3>
+            <h3>Backend Development</h3>
             <p>
-              I throw myself down among the tall grass by the stream as I lie
-              close to the earth.
+            My web development services include  back-end development.
+							
             </p>
           </div>
           <div className="service__card">
@@ -73,10 +62,10 @@ function Service() {
               {" "}
               <AiOutlineLaptop />{" "}
             </div>
-            <h3>Marketing & Reporting</h3>
+            <h3>Web Development</h3>
             <p>
-              I throw myself down among the tall grass by the stream as I lie
-              close to the earth.
+              My web development services include front-end 
+              development.
             </p>
           </div>
           <div className="service__card">
@@ -84,13 +73,10 @@ function Service() {
               {" "}
               <MdDashboard />{" "}
             </div>
-            <h3>
-              Mobile App <br />
-              Development
-            </h3>
+            <h3>Dynamic</h3>
             <p>
-              I throw myself down among the tall grass by the stream as I lie
-              close to the earth.
+              Websites don't have to be static, I love making pages come to
+              life.
             </p>
           </div>
         </div>

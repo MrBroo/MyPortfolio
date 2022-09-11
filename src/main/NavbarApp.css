@@ -1,22 +1,18 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .wrapper {
   display: flex;
   justify-content: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 15px;
+  padding-bottom: 14px;
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
   backdrop-filter: blur(3px);
   width: 100%;
   z-index: 99;
+  font-family: "Poppins", sans-serif;
 }
 .header__logo {
   color: white;
-  font-weight: 500;
+  font-weight: 550;
   margin-right: 10px;
 }
 
@@ -44,11 +40,25 @@ body {
 }
 
 .navbar__a {
+  display: inline-block;
   text-decoration: none;
   color: white;
-  font-weight: 500;
+  font-weight: 550;
   margin: 0 15px;
   position: relative;
+}
+
+.header__menu > ul > li {
+  display: flex;
+  align-items: center;
+}
+.header__menu > ul > li > a::after {
+  display: block;
+  content: attr(title);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 .navbar__a::before {
@@ -65,7 +75,7 @@ body {
 
 .navbar__a:hover {
   color: #f9004d;
-  font-weight: 500;
+  font-weight: 550;
 }
 
 .navbar__a:hover::before {
@@ -123,7 +133,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
   backdrop-filter: blur(3px);
-  width: 75vw;
+  width: 80vw;
   z-index: 10;
   right: 0;
   height: 100%;
@@ -157,11 +167,14 @@ body {
 .header__menu__mobile > ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
+  padding-left: 15px;
+  margin-top: 15px;
 }
 
 .header__menu__mobile > ul > li {
-  font-size: 25px;
-  margin-top: 30px;
+  font-size: 22px;
+  margin-top: 20px;
 }
 
 .navbar__a__mobile {
@@ -196,6 +209,8 @@ body {
 .header__icons__mobile > ul {
   display: flex;
   list-style-type: none;
+  padding: 0;
+  padding-left: 15px;
 }
 
 .header__icons__mobile > ul > li a {
@@ -227,7 +242,7 @@ body {
   font-size: 30px;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 1030px) {
   .header__menu {
     display: none;
   }
@@ -241,15 +256,24 @@ body {
 
   .nav__button {
     display: block;
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 25px;
   }
-
 }
 
-@media (min-width: 880px) {
+@media (max-width: 500px) {
+  .nav__button {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1030px) {
   .nav__mobile__block {
     display: none;
   }
-    .nav__cancel__button{
+  .nav__cancel__button {
     display: none;
   }
 }

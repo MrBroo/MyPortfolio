@@ -2,6 +2,7 @@
   background-color: #101010;
   display: flex;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .service {
@@ -33,13 +34,14 @@
 }
 
 .service__card {
-  width: 320px;
-  height: 280px;
+  width: 329px;
+  height: 281px;
   padding: 60px 35px;
   background-color: #191919;
   margin: 15px;
   border-radius: 10px;
   transition: all 0.3s ease;
+
 }
 .service__card:hover {
   transform: translateY(-2%);
@@ -81,13 +83,12 @@
     height: 260px;
     background-image: linear-gradient(90deg, #f61b10, #ef0963);
   }
-  .card__icon{
-    color: white
+  .card__icon {
+    color: white;
   }
 
   .service__card > p {
     font-size: 14px;
     color: white;
   }
-
 }

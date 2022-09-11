@@ -11,28 +11,10 @@ function Header() {
         <p className="header__text">
           Hi, I`m Ibrokhim
           <div className="header__textmoution">
-            {/* <Typewriter
-              loop
-              cursor
-              cursorStyle="|"
-              typeSpeed={70}
-              deleteSpeed={50}
-              delaySpeed={1000}
-              word={["JS Developer", "Fullstack Developer"]}
-            /> */}
-            {/* <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .typeString("JS Developer")
-                  .pauseFor(1000)
-                  .deleteAll()
-                  .typeString("Fullstack Developer")
-                  .start();
-              }}
-            /> */}
+          
             <Typewriter
               options={{
-                strings: ["JS Developer", "Fullstack Developer"],
+                strings: ["Fullstack Developer", "I code cool websites"],
                 autoStart: true,
                 loop: true,
               }}

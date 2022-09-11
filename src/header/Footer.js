@@ -16,7 +16,7 @@ function Footer() {
                 <li><RiGithubFill /></li>
             </ul>
         </div>
-        <div className="footer__right">Copyright © 2021 Rainbow-Themes. All Rights Reserved.</div>
+        <div className="footer__right">Made by Ibrokhim Fayzullayev 2022</div>
       </div>
     </div>
   );

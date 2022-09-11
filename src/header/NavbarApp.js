@@ -37,8 +37,13 @@ function NavbarApp() {
                   </a>
                 </li>
                 <li>
-                  <a className="navbar__a" href="#portfolio">
+                  <a href="#portfolio" className="navbar__a">
                     Portfolio
+                  </a>
+                </li>
+                <li>
+                  <a href="#feedback" className="navbar__a">
+                  Feedback
                   </a>
                 </li>
                 <li>

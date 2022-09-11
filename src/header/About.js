@@ -8,7 +8,7 @@ function About() {
     setToggleState(index);
   };
   return (
-    <div className="about__body">
+    <div className="about__body" id='about'>
       <div className="about">
         <div className="about__left">
           <div className="about__img"></div>
@@ -16,10 +16,10 @@ function About() {
         <div className="about__right">
           <h1>About Me</h1>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which dont look even slightly
-            believable. If you are going to use a passage of Lorem Ipsum,
+            I am passionate about building excellent software that improves the
+            lives of those around me. I specialize in creating software for
+            clients ranging from individuals and small-businesses all the way to
+            large enterprise corporations.
           </p>
 
           <div className="containerTab">

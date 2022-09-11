@@ -2,6 +2,7 @@
   background-color: #101010;
   display: flex;
   justify-content: center;
+  font-family: 'Poppins', sans-serif;
 }
 .footer {
   width: 90%;
