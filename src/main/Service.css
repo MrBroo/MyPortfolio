@@ -23,7 +23,7 @@
   color: white;
 }
 .service__text > div > p {
-  color: gray;
+  color: rgba(198, 201, 216, 0.75);
 }
 
 .service__content {
@@ -57,7 +57,7 @@
 
 .service__card > p {
   font-size: 18px;
-  color: gray;
+  color: rgba(198, 201, 216, 0.75);
 }
 .service__card:hover p {
   color: white;

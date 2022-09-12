@@ -8,7 +8,7 @@ function About() {
     setToggleState(index);
   };
   return (
-    <div className="about__body" id='about'>
+    <div className="about__body" id="about">
       <div className="about">
         <div className="about__left">
           <div className="about__img"></div>
@@ -54,13 +54,24 @@ function About() {
                   toggleState === 1 ? "content  active-content" : "content"
                 }
               >
-                <h2>Content 1</h2>
-                <hr />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Obcaecati praesentium incidunt quia aspernatur quasi quidem
-                  facilis quo nihil vel voluptatum?
-                </p>
+                <div className="about__tabs">
+                  <p>
+                    <b>Web and user interface design - </b> Development
+                  </p>
+                  <p>Websites, web experiences, ...</p>
+                </div>
+                <div className="about__tabs">
+                  <p>
+                    <b> Interaction design - Animation</b> Development
+                  </p>
+                  <p>I like to move it move it.</p>
+                </div>
+                <div className="about__tabs">
+                  <p>
+                    <b>User experience design - UI/UX</b> Development
+                  </p>
+                  <p>Delight the user and make it work.</p>
+                </div>
               </div>
 
               <div
@@ -68,12 +79,24 @@ function About() {
                   toggleState === 2 ? "content  active-content" : "content"
                 }
               >
-                <h2>Content 2</h2>
-                <hr />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Sapiente voluptatum qui adipisci.
-                </p>
+                <div className="about__tabs">
+                  <p>
+                    <b>Web and user interface design - </b> Development
+                  </p>
+                  <p>Websites, web experiences, ...</p>
+                </div>
+                <div className="about__tabs">
+                  <p>
+                    <b>Web and user interface design - </b> Development
+                  </p>
+                  <p>Websites, web experiences, ...</p>
+                </div>
+                <div className="about__tabs">
+                  <p>
+                    <b>Web and user interface design - </b> Development
+                  </p>
+                  <p>Websites, web experiences, ...</p>
+                </div>
               </div>
 
               <div
@@ -81,17 +104,24 @@ function About() {
                   toggleState === 3 ? "content  active-content" : "content"
                 }
               >
-                <h2>Content 3</h2>
-                <hr />
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
-                  sed nostrum rerum laudantium totam unde adipisci incidunt modi
-                  alias! Accusamus in quia odit aspernatur provident et ad vel
-                  distinctio recusandae totam quidem repudiandae omnis veritatis
-                  nostrum laboriosam architecto optio rem, dignissimos
-                  voluptatum beatae aperiam voluptatem atque. Beatae rerum
-                  dolores sunt.
-                </p>
+                <div className="about__tabs">
+                  <p>
+                    <b>Web and user interface design - </b> Development
+                  </p>
+                  <p>Websites, web experiences, ...</p>
+                </div>
+                <div className="about__tabs">
+                  <p>
+                    <b>Web and user interface design - </b> Development
+                  </p>
+                  <p>Websites, web experiences, ...</p>
+                </div>
+                <div className="about__tabs">
+                  <p>
+                    <b>Web and user interface design - </b> Development
+                  </p>
+                  <p>Websites, web experiences, ...</p>
+                </div>
               </div>
             </div>
           </div>

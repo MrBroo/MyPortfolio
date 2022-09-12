@@ -2,7 +2,7 @@
   background-color: #191919;
   display: flex;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .about {
@@ -32,7 +32,7 @@
 }
 
 .about__right > p {
-  color: gray;
+  color: rgba(198, 201, 216, 0.75);
   font-size: 16px;
 }
 
@@ -135,6 +135,17 @@ button {
 
 .active-content {
   display: block;
+}
+.about__tabs {
+  margin-top: 15px;
+}
+
+.about__tabs p {
+  margin: 0;
+  color: rgba(198, 201, 216, 0.75);
+}
+.about__tabs > p:nth-child(1) {
+  margin-bottom: 5px;
 }
 
 @media (max-width: 1040px) {
