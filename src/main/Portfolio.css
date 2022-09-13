@@ -9,7 +9,7 @@
   width: 80%;
   height: 250px;
   margin-top: 75px;
-  margin-bottom: 400px;
+  margin-bottom: 800px;
 }
 
 .portfolio__text {
@@ -74,7 +74,7 @@ button {
   flex-grow: 1;
 }
 .content1 {
-  padding-top: 50px;
+  padding-top: 25px;
   width: 100%;
   height: 100%;
   display: none;
@@ -94,6 +94,7 @@ button {
 
 .content__card {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -107,6 +108,8 @@ button {
 
 .card__body {
   position: relative;
+  width: 48%;
+  margin-top: 35px;
 }
 
 .card__hover {
@@ -166,27 +169,31 @@ button {
   border: 0 !important;
 }
 .modal-dialog {
-  max-width: 80vw !important;
+  max-width: 90vw !important;
+}
+
+.portfolio__modal {
+  display: flex;
+  justify-content: space-between;
 }
 
 .modal__text {
   text-align: center;
-}
-.modal__left > h3 {
-  margin-top: 25px;
-  font-weight: 800;
-  margin-bottom: 20px;
+  width: 70%;
 }
 
 .modal__cards {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: end;
 }
 
 .modal__card img {
+  margin-bottom: 15px;
+  margin-left: 15px;
   border-radius: 5px;
-  width: 480px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
 }
 
 @media (max-width: 1200px) {

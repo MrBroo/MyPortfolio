@@ -1,6 +1,8 @@
 import "../main/Portfolio.css";
 import { useState } from "react";
 import tabsImg from "../images/Html_1_image.png";
+import Html2 from "../images/Html_2_image.png";
+import Html3 from "../images/Html_3_image.png";
 import Modal from "react-bootstrap/Modal";
 
 function Portfolio() {
@@ -22,21 +24,24 @@ function Portfolio() {
       >
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
-          <div>
+          <div className="portfolio__modal">
             <div className="modal__text">
               <h3>This is my site</h3>
               <p>
                 {" "}
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration. There are many
-                variations of passages of Lorem Ipsum available, but the
-                majority have suffered alteration. There are many variations of
-                passages of Lorem Ipsum available, but the majority have
-                suffered alteration. There are many variations
+                variations of
               </p>
             </div>
             <div className="modal__cards">
               <div className="modal__card mr-3">
+                <img src={tabsImg} />
+              </div>
+              <div className="modal__card mr-3">
+                <img src={tabsImg} />
+              </div>
+              <div className="modal__card">
                 <img src={tabsImg} />
               </div>
               <div className="modal__card">
@@ -189,7 +194,22 @@ function Portfolio() {
                         </div>
                       </div>
                     </a>
-                    <img src={tabsImg} className="card__img" />
+                    <img src={Html2} className="card__img" />
+                  </div>
+                  <div className="card__body">
+                    <a className="card__hover">
+                      <div className="card__more">
+                        <div>
+                          <h3>Click button for more see</h3>
+                          <p>
+                            I throw myself down among the tall grass by the
+                            stream as I lie close to the earth.
+                          </p>
+                          <button onClick={() => setShow(true)}>More</button>
+                        </div>
+                      </div>
+                    </a>
+                    <img src={Html3} className="card__img" />
                   </div>
                 </div>
               </div>
