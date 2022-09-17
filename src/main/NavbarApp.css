@@ -48,6 +48,10 @@
   position: relative;
 }
 
+.header_logo_link {
+  text-decoration: none;
+}
+
 .header__menu > ul > li {
   display: flex;
   align-items: center;
@@ -105,11 +109,13 @@
   background-color: transparent;
   margin-left: 15px;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .header__button:hover {
   background-color: #f9004d;
   transition: all 0.3s ease;
+  color: aliceblue;
 }
 
 .header__logo__mobile {

@@ -6,7 +6,7 @@
 }
 
 .service {
-  width: 80%;
+  width: 90%;
   margin-bottom: 85px;
   margin-top: 85px;
 }
@@ -41,21 +41,20 @@
   margin: 15px;
   border-radius: 10px;
   transition: all 0.3s ease;
-
 }
 .service__card:hover {
   transform: translateY(-2%);
   background-image: linear-gradient(90deg, #f61b10, #ef0963);
 }
 
-.service__card > h3 {
+.service__card h3 {
   font-weight: 500;
   font-size: 19px;
   color: white;
   margin-bottom: 19px;
 }
 
-.service__card > p {
+.service__card p {
   font-size: 18px;
   color: rgba(198, 201, 216, 0.75);
 }
@@ -87,8 +86,26 @@
     color: white;
   }
 
-  .service__card > p {
+  .service__card p {
     font-size: 14px;
     color: white;
+  }
+}
+
+@media (max-width: 688px) {
+  .service__card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    height: auto;
+  }
+  .card__icon {
+    margin: 0;
+    margin-right: 15px;
+  }
+
+  .service__card p {
+    margin-bottom: 0;
   }
 }

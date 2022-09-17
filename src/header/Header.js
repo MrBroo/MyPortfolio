@@ -8,10 +8,9 @@ function Header() {
       <div className="header__content">
         <p className="header__toptext">WELCOME TO MY WORLD</p>
 
-        <p className="header__text">
+        <div className="header__text">
           Hi, I`m Ibrokhim
-          <div className="header__textmoution">
-          
+          <span className="header__textmoution">
             <Typewriter
               options={{
                 strings: ["Fullstack Developer", "I code cool websites"],
@@ -19,8 +18,8 @@ function Header() {
                 loop: true,
               }}
             />
-          </div>
-        </p>
+          </span>
+        </div>
         <p className="header__bottomtext">based in UZB</p>
       </div>
     </div>

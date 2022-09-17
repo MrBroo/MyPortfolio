@@ -11,26 +11,21 @@ function Footer() {
         <div className="footer__icons">
           <ul>
             <li>
-              <a href="https://www.instagram.com/f.ibrokhim_/"
-                target="_blank"
-                >
+              <a href="https://www.instagram.com/f.ibrokhim_/" target="_blank">
                 <AiOutlineInstagram />
               </a>
             </li>
             <li>
-              <a href="" 
-               target="_blank">
-                {" "}
+              <a href="" target="_blank">
                 <TiSocialFacebook />
               </a>
             </li>
             <li>
-              <a href="" target="_blank">
+              <a href="https://www.linkedin.com/in/ibrohim-fayzullayev-7a1431245/" target="_blank">
                 <TiSocialLinkedin />
               </a>
             </li>
             <li>
-              {" "}
               <a href="https://github.com/MrBroo" target="_blank">
                 <RiGithubFill />
               </a>

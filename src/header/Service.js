@@ -13,71 +13,63 @@ function Service() {
         <div className="service__text">
           <div>
             <h1>My Awesome Service</h1>
-            <p>
-              {" "}
-              Everything I offer with a detailed overview of each.
-            </p>
+            <p>Everything I offer with a detailed overview of each.</p>
           </div>
         </div>
         <div className="service__content">
           <div className="service__card">
             <div className="card__icon">
-              {" "}
-              <FiMonitor />{" "}
+              <FiMonitor />
             </div>
-            <h3>Single Page Application</h3>
-            <p>My single page application is fast and easy to understand.</p>
+            <div>
+              <h3>Single Page Application</h3>
+              <p>My single page application is fast and easy to understand.</p>
+            </div>
           </div>
           <div className="service__card">
             <div className="card__icon">
-              {" "}
-              <AiOutlineMobile />{" "}
+              <AiOutlineMobile />
             </div>
-            <h3>Full Responsive</h3>
-            <p>My layouts will work on any device, big or small.</p>
+            <div>
+              <h3>Full Responsive</h3>
+              <p>My layouts will work on any device, big or small.</p>
+            </div>
           </div>
           <div className="service__card">
             <div className="card__icon">
-              {" "}
-              <IoLogoBuffer />{" "}
+              <IoLogoBuffer />
             </div>
-            <h3>Fast</h3>
-            <p>
-            Fast load times and lag free interaction, my highest priority.
-            </p>
+            <div>
+              <h3>Fast</h3>
+              <p>Fast load times and lag free interaction, my highest priority.</p>
+            </div>
           </div>
           <div className="service__card">
             <div className="card__icon">
-              {" "}
-              <MdDns />{" "}
+              <MdDns />
             </div>
-            <h3>Backend Development</h3>
-            <p>
-            My web development services include  back-end development.
-							
-            </p>
+            <div>
+              <h3>Backend Development</h3>
+              <p>My web development services include back-end development.</p>
+            </div>
           </div>
           <div className="service__card">
             <div className="card__icon">
-              {" "}
-              <AiOutlineLaptop />{" "}
+              <AiOutlineLaptop />
             </div>
-            <h3>Web Development</h3>
-            <p>
-              My web development services include front-end 
-              development.
-            </p>
+            <div>
+              <h3>Web Development</h3>
+              <p>My web development services include front-end development.</p>
+            </div>
           </div>
           <div className="service__card">
             <div className="card__icon">
-              {" "}
-              <MdDashboard />{" "}
+              <MdDashboard />
             </div>
-            <h3>Dynamic</h3>
-            <p>
-              Websites don't have to be static, I love making pages come to
-              life.
-            </p>
+            <div>
+              <h3>Dynamic</h3>
+              <p>Websites don't have to be static, I love making pages come to life.</p>
+            </div>
           </div>
         </div>
       </div>
