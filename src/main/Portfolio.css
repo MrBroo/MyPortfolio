@@ -7,9 +7,9 @@
 
 .portfolio {
   width: 80%;
-  height: 250px;
+  height: 100%;
   margin-top: 75px;
-  margin-bottom: 800px;
+  padding-bottom: 80px;
 }
 
 .portfolio__text {
@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 300px;
+  height: 100%;
 }
 
 .bloc-tabs1 {
@@ -90,6 +90,7 @@ button {
 }
 .active-content1 {
   display: block;
+  height: 100%;
 }
 
 .content__card {
@@ -160,7 +161,7 @@ button {
 }
 
 .modal-content {
-  background-color: rgba(255, 255, 255, 0.5) !important;
+  background-color: rgb(255, 255, 255) !important;
   backdrop-filter: blur(3px);
   border: 2px solid white;
 }
@@ -174,12 +175,59 @@ button {
 
 .portfolio__modal {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .modal__text {
   text-align: center;
-  width: 70%;
+  width: 40%;
+}
+
+.modal__text p {
+  font-size: 18px;
+}
+.modal__text .modal__list ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+  padding-right: 30px;
+  list-style-type: none;
+  margin: 0;
+  font-size: 20px;
+}
+
+.modal__text .modal__list ul li span {
+  margin-right: 10px;
+}
+.modal__text .modal__list ul li {
+  padding-top: 10px;
+}
+
+.modal__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal__social {
+  display: flex;
+  align-items: center;
+  background-color: #191919;
+  padding: 5px 15px;
+  border-radius: 6px;
+  color: white;
+  margin-top: 38px;
+  text-decoration: none;
+}
+
+.modal__social:hover {
+  color: white;
+}
+
+.for__size {
+  font-size: 20px;
+  margin-right: 4px;
+  margin-top: -5px;
 }
 
 .modal__cards {
@@ -192,8 +240,9 @@ button {
   margin-bottom: 15px;
   margin-left: 15px;
   border-radius: 5px;
-  width: 300px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
+  box-shadow: #00000073 1px 3px 15px 1px;
 }
 
 @media (max-width: 1200px) {

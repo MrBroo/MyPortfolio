@@ -58,19 +58,19 @@ function About() {
                   <p>
                     <b>Web and user interface design - </b> Development
                   </p>
-                  <p>Websites, web experiences, ...</p>
+                  <p>JavaScript, React, TypeScript</p>
                 </div>
                 <div className="about__tabs">
                   <p>
-                    <b> Interaction design - Animation</b> Development
+                    <b>Backend - </b> Development
                   </p>
-                  <p>I like to move it move it.</p>
+                  <p>Java, Spring boot, Postgresql</p>
                 </div>
                 <div className="about__tabs">
                   <p>
-                    <b>User experience design - UI/UX</b> Development
+                    <b>Mobil Application - </b> Development
                   </p>
-                  <p>Delight the user and make it work.</p>
+                  <p>JavaScript, TypeScript, ReactNative</p>
                 </div>
               </div>
 
@@ -106,21 +106,15 @@ function About() {
               >
                 <div className="about__tabs">
                   <p>
-                    <b>Web and user interface design - </b> Development
+                    <b>PDP IT ACADEMY</b>
                   </p>
-                  <p>Websites, web experiences, ...</p>
+                  <p>Fullstack Developer</p>
                 </div>
                 <div className="about__tabs">
                   <p>
-                    <b>Web and user interface design - </b> Development
+                    <b>Certification of PDP</b>
                   </p>
-                  <p>Websites, web experiences, ...</p>
-                </div>
-                <div className="about__tabs">
-                  <p>
-                    <b>Web and user interface design - </b> Development
-                  </p>
-                  <p>Websites, web experiences, ...</p>
+                  <p>WEB FULL STACK DEVELOPMENT COURSE</p>
                 </div>
               </div>
             </div>

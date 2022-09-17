@@ -43,7 +43,7 @@ function NavbarApp() {
                 </li>
                 <li>
                   <a href="#feedback" className="navbar__a">
-                  Feedback
+                    Feedback
                   </a>
                 </li>
                 <li>
@@ -105,6 +105,7 @@ function NavbarApp() {
           </div>
         </div>
       </div>
+      <div className="nav__position">
       <div
         className={navState === 1 ? "nav__mobile__block" : "nav__mobile__none"}
       >
@@ -145,7 +146,7 @@ function NavbarApp() {
               <div className="header__icons__mobile">
                 <ul>
                   <li>
-                    <a href="#">
+                    <a href="https://www.instagram.com/f.ibrokhim_/">
                       {" "}
                       <RiInstagramLine />
                     </a>
@@ -163,7 +164,7 @@ function NavbarApp() {
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://github.com/MrBroo">
                       {" "}
                       <RiGithubFill />
                     </a>
@@ -173,6 +174,7 @@ function NavbarApp() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

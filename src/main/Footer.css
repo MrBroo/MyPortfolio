@@ -25,7 +25,7 @@
   color: rgba(198, 201, 216, 0.75);
 }
 
-.footer__icons > ul > li {
+.footer__icons > ul > li a {
   margin: 0 7px;
   padding: 9px 8px;
   border: 2px solid rgba(198, 201, 216, 0.75);
@@ -38,7 +38,7 @@
   transition: all 0.3s ease;
 }
 
-.footer__icons > ul > li:hover {
+.footer__icons > ul > li a:hover {
   background-color: #f9004d;
   color: white;
   transform: translateY(-10%);

@@ -67,8 +67,8 @@ function Contact() {
         <div className="contact__right">
           <div className="contact__send">
             <form ref={form} onSubmit={sendEmail}>
-              <input placeholder="Name" className="name__input" />
-              <input placeholder="Email" className="email__input" />
+              <input placeholder="Name" className="name__input" required/>
+              <input placeholder="Email" className="email__input" required/>
               <textarea placeholder="Message" />
               <div className="contact__buttom">
                 {" "}

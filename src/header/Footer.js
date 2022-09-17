@@ -9,12 +9,33 @@ function Footer() {
       <div className="footer">
         <div className="footer__logo">Ibrokhim</div>
         <div className="footer__icons">
-            <ul>
-                <li><AiOutlineInstagram /></li>
-                <li> <TiSocialFacebook /></li>
-                <li><TiSocialLinkedin /></li>
-                <li><RiGithubFill /></li>
-            </ul>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/f.ibrokhim_/"
+                target="_blank"
+                >
+                <AiOutlineInstagram />
+              </a>
+            </li>
+            <li>
+              <a href="" 
+               target="_blank">
+                {" "}
+                <TiSocialFacebook />
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                <TiSocialLinkedin />
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a href="https://github.com/MrBroo" target="_blank">
+                <RiGithubFill />
+              </a>
+            </li>
+          </ul>
         </div>
         <div className="footer__right">Made by Ibrokhim Fayzullayev 2022</div>
       </div>

@@ -6,15 +6,17 @@ import { CgQuoteO } from "react-icons/cg";
 import Carousel from "react-bootstrap/Carousel";
 function SliderApp() {
   return (
-    <div class="slide__body"  id='feedback'>
+    <div class="slide__body" id="feedback">
       <div className="slide">
         <Carousel variant="white">
           <Carousel.Item>
             <div class="carousel border">
               <div class="carousel__text">
-                Ayni paytda TPS eng yuqori saviyadagi ma’lumot uzatish global
-                taqmog‘iga yuqori tezlikda kirish imkonini yaratuvchi xizmatni
-                taklif etaoladigan intellektual va texnik quvvatga ega.
+                We were lucky to work with Ahmadjon on a permanent basis. Every
+                project is completed on time and exactly according to plan. In
+                addition, his development skills and experience make him an
+                invaluable part of our process. We absolutely offer our highest
+                recommendation possible.
               </div>
               <div class="carousel__back_text mb-3">
                 Tania Perfilyeva
@@ -43,9 +45,9 @@ function SliderApp() {
                 <CgQuoteO />
               </div>
               <div class="carousel__text">
-                Ayni paytda TPS eng yuqori saviyadagi ma’lumot uzatish global
-                taqmog‘iga yuqori tezlikda kirish imkonini yaratuvchi xizmatni
-                taklif etaoladigan intellektual va texnik quvvatga ega.
+                Ibrohim is a great communicator, with the tenacity and
+                confidence to really get into the complex design scenarios and
+                collaborative frictions required to create great work.
               </div>
               <div class="carousel__back_text mb-3">
                 Tania Perfilyeva
